@@ -1,4 +1,4 @@
-baseURL = 'https://igniscape.github.io/blog'
+baseURL = 'https://igniscape.github.io/'
 languageCode = 'en-us'
 title = 'Blog'
 
