@@ -6,11 +6,6 @@ title = 'Blog'
 #home = ['html', 'rss']
 #section = ['html', 'rss']
 
-[params]
-[params.socialIcons]
-name=["rss"]
-url="https://igniscape.github.io/index.xml"
-
 [markup]
 # (Optional) To be able to use all Prism plugins, the theme enables unsafe
 # rendering by default
@@ -83,6 +78,9 @@ plugins = [
     "copy-to-clipboard",
     "line-numbers"
 ]
+[params.socialIcons]
+name=["rss"]
+url="https://igniscape.github.io/index.xml"
 
 [security.exec]
 allow = ['^go$', '^npx$','^asciidoctor$']
