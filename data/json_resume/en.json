@@ -6,6 +6,11 @@
         "network": "GitHub",
         "username": "igniscape",
         "url": "https://github.com/igniscape"
+      },
+      {
+        "network": "RSS",
+        "username": "igniscape",
+        "url": "/index.xml"
       }
     ]
   },
