@@ -78,9 +78,16 @@ plugins = [
     "copy-to-clipboard",
     "line-numbers"
 ]
-[params.socialIcons]
-name=["rss"]
-url="https://igniscape.github.io/index.xml"
+[params.tagCloud]
+enable = true
+minFontSizeRem = 0.8
+maxFontSizeRem = 2.0
 
 [security.exec]
 allow = ['^go$', '^npx$','^asciidoctor$']
+
+#copyright = '© 2023 ABC Widgets, Inc.'
+#[params]
+#[params.author]
+#email = 'jdoe@example.org'
+#name = 'John Doe'
