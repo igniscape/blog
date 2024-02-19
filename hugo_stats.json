@@ -68,6 +68,8 @@
       "post-header",
       "post-heading__anchor",
       "post-meta",
+      "post-tag",
+      "post-tags",
       "search",
       "search__suggestions--hidden",
       "sidebar",
@@ -75,6 +77,9 @@
       "social-share",
       "social-share__heading",
       "social-share__item",
+      "tag-cloud",
+      "tag-cloud__tag",
+      "tag-cloud__tag--active",
       "theme__toggle",
       "toc"
     ],

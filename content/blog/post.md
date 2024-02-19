@@ -5,6 +5,9 @@ draft = false
 comments = true
 socialShare = true
 toc = true
+tags = [
+    "emoji"
+]
 +++
 
 Test

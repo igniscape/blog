@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
+    "image": "https://igniscape.github.io/cv.png",
     "profiles": [
       {
         "network": "GitHub",
