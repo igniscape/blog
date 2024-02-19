@@ -83,11 +83,100 @@ enable = true
 minFontSizeRem = 0.8
 maxFontSizeRem = 2.0
 
+[params.logo]
+text = "igniscape"
+url = "/"
+
 [security.exec]
 allow = ['^go$', '^npx$','^asciidoctor$']
+
+# Social share links for posts:
+#   - iconSuite: "simple-icon" or "tabler-icon"
+#   - iconName: name of the icon from the "iconSuite"
+#   - {url} placeholder for post .Permalink
+#   - {title} placeholder for post .Title
+# See  https://github.com/bradvin/social-share-urls for more format strings
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "facebook"
+formatString = "https://www.facebook.com/sharer.php?u={url}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "reddit"
+formatString = "https://reddit.com/submit?url={url}&title={title}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "twitter"
+formatString = "https://twitter.com/intent/tweet?url={url}&text={title}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "linkedin"
+formatString = "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "whatsapp"
+formatString = "whatsapp://send/?text={title}%20{url}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "tumblr"
+formatString = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={title}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "pinterest"
+formatString = "http://pinterest.com/pin/create/button/?url={url}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "ycombinator"
+formatString = "https://news.ycombinator.com/submitlink?u={url}&t={title}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "xing"
+formatString = "https://www.xing.com/spi/shares/new?url={url}"
+[[params.socialShare]]
+iconSuite = "simple-icon"
+iconName = "telegram"
+formatString = "https://telegram.me/share/url?url={url}&text={title}"
+[[params.socialShare]]
+iconSuite = "tabler-icon"
+iconName = "mail"
+formatString = "mailto:?subject={title}&body={url}"
+
+[menu]
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog"
+weight = 10
+#[[menu.main]]
+#  identifier = "cv"
+#  name = "CV"
+#  url = "/cv"
+#  weight = 30
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 40
+#[[menu.main]]
+#identifier = "stats"
+#name = "Stats"
+#url = "/stats"
+#weight = 50
 
 #copyright = '© 2023 ABC Widgets, Inc.'
 #[params]
 #[params.author]
 #email = 'jdoe@example.org'
 #name = 'John Doe'
+
+#[languages]
+#[languages.en]
+#languageName = "English"
+#weight = 10
+#[languages.en.params.jsonResume]
+#present = "present"
+#[languages.uk]
+#languageName = "Українська"
+#weight = 20
+#[languages.de.params.jsonResume]
+#present = "сьогодні"
