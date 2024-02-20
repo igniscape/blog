@@ -4,7 +4,6 @@ date = 2024-02-20T18:09:25+02:00
 draft = false
 comments = true
 socialShare = true
-toc = true
 +++
 
 Step into the realm of my personal blog, a space where I eagerly share my thoughts and experiences. While it now revolves predominantly around IT, the winds of change are always blowing. Who knows where this journey may lead?
