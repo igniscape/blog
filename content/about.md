@@ -1,12 +1,13 @@
 ---
 title: "About"
-date: 2024-02-18T21:40:57+02:00
-draft: false
+toc: true
 ---
 
-## Legal
+## Thanks
 
-The theme is [licensed under MIT](https://github.com/schnerring/hugo-theme-gruvbox/blob/main/LICENSE).
+This blog is built upon the [Gruvbox](https://themes.gohugo.io/themes/hugo-theme-gruvbox/) theme, and I want to express my gratitude to all its contributors. Special thanks to [Michael Schnerring](https://schnerring.net/) for authoring this exceptional theme.
+
+## Legal
 
 All trademarks are the property of their respective owners.
 
